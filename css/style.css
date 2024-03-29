@@ -10,6 +10,59 @@
 /* END OF NAVBAR CSS */
 /* START OF HOME PAGE CSS  */
 
-
-
+#learn-more {
+    border: 2px solid black;
+    max-width: none;
+    min-width: none;
+    text-align: center;
+}
+#packages {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pricing-box {
+    color: antiquewhite;
+}
+.select {
+    background-color: goldenrod;
+    justify-content: center;
+    align-content: flex-end;
+}
+#bronze {
+    border: 4px solid burlywood;
+    flex: 0 0 25%;
+    position: relative;
+    max-width: 25%;
+    min-height: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#silver {
+    border: 4px solid silver;
+    flex: 0 0 25%;
+    position: relative;
+    max-width: 25%;
+    min-height: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#gold {
+    border: 4px solid gold;
+    flex: 0 0 25%;
+    position: relative;
+    max-width: 25%;
+    min-height: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#platinum {
+    border: 4px solid lightgoldenrodyellow;
+    flex: 0 0 25%;
+    position: relative;
+    max-width: 25%;
+    min-height: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /* END OF HOME PAGE CSS */

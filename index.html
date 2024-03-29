@@ -21,13 +21,13 @@
       </div>
     </div>
     <div class="main-nav">
-      <a href="../index.html">Home</a>
-      <a href="../GlobeWebb-Agents/index.html">Testimonials</a>
-      <a href="../GlobeWebb-Agents/index.html">Projects</a>
-      <a href="../GlobeWebb-Agents/index.html">Pricing</a>
-      <a href="../GlobeWebb-Agents/pages/about.html">About Us</a>
-      <a href="../GlobeWebb-Agents/pages/login.html"
-        ><button><span>Log In / Sign Up</span></button></a
+      <a class="nv" href="/index.html">Home</a>
+      <a class="nv" href="/index.html">Testimonials</a>
+      <a class="nv" href="/pages/projects.html">Projects</a>
+      <a class="nv" href="/index.html">Pricing</a>
+      <a class="nv" href="/pages/about.html">About Us</a>
+      <a href="/pages/login.html"
+        ><button id="lgin">Log In / Sign Up</button></a
       >
     </div>
   </nav>
@@ -35,12 +35,13 @@
   <body>
     <!-- START OF TOP PAGE -->
     <div id="learn-more">
+        <img id="gold-globe" src="/images-project/gold-globe.png" alt="A Gold Globe">
       <h1>Welcome to GlobeWebb</h1>
       <p>
         Here at GlobeWebb we are here to enhance your travel experience and cure
         that curiosity craving.
       </p>
-      <button><span>Learn More</span></button>
+      <button id="learn-button">Learn More</button>
     </div>
     <!-- END OF TOP PAGE -->
     <div id="contacting">
@@ -48,7 +49,7 @@
     </div>
 
     <!-- START OF PACKAGES -->
-    <div id="packages">
+    <div class="packages">
       <div id="bronze" class="pricing-box">
         <h3 class="head-li">BRONZE</h3>
         <p>$4,000</p>
@@ -59,18 +60,24 @@
           <li></li>
           <li></li>
         </ul>
+        <!-- <img id="bronze-img" src="/images-project/bronze-family.jpg" alt="Picture of Family"> -->
         <button class="select">Select Package</button>
       </div>
       <div id="silver" class="pricing-box">
         <h3 class="head-li">SILVER</h3>
         <p>$5,000</p>
         <ul class="silver-li">
-          <li><i class="icon ion-md-checkmark-circle-outline demo">Something</i></li>
-          <li><i class="icon ion-md-checkmark-circle-outline demo">something</i></li>
+          <li>
+            <i class="icon ion-md-checkmark-circle-outline demo">Something</i>
+          </li>
+          <li>
+            <i class="icon ion-md-checkmark-circle-outline demo">something</i>
+          </li>
           <li><i class="icon ion-md-checkmark-circle-outline demo"></i></li>
           <li><i class="icon ion-md-checkmark-circle-outline demo"></i></li>
           <li><i class="icon ion-md-checkmark-circle-outline demo"></i></li>
         </ul>
+        <!-- <img id="silver-img" src="/images-project/silver-beach.jpg" alt=""> -->
         <button class="select">Select Package</button>
       </div>
       <div id="gold" class="pricing-box">
@@ -83,6 +90,7 @@
           <li></li>
           <li></li>
         </ul>
+        <!-- <img id="gold-img" src="/images-project/platinum-vacay.jpg" alt=""> -->
         <button class="select">Select Package</button>
       </div>
     </div>

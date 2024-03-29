@@ -18,7 +18,27 @@
     font-weight: 300;
     justify-content: space-between;
     padding: 20px;
+    z-index: 1;
 }
+.nv {
+    text-decoration: none;
+    color: gold;
+    text-shadow: .5px .5px .5px white;
+    padding-right: 20px;
+}
+.nv:hover {
+    color: aliceblue;
+}
+.nv:active {
+    color:aliceblue;
+}
+#lgin {
+    background-color: rgb(216, 229, 240);
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+}
+
 /* PUT ACTIVE COLOR FOR LOGIN/SIGNUP BUTTON */
 
 /* END OF NAVBAR CSS */
@@ -33,8 +53,11 @@
     min-width: none;
     text-align: center;
     height: 400px;
+    background-image: url("/images-project/physical-world-map.jpg");
 }
-
+#gold-globe {
+    width: 200px;
+}
 /* HERO SECTION END */
 
 /* START OF CONTACT SECTION */
@@ -71,12 +94,15 @@
 #bronze {
     border: 4px solid burlywood;
 }
+
 #silver {
     border: 4px solid silver;
 }
+#silver-img, #gold-img, #bronze-img {
+    width: 133px;
+}
 #gold {
-    border: 4px solid gold;
-    
+    border: 4px solid gold;   
 }
 #gold, #silver, #bronze {
     flex: 0 0 33.33%;
@@ -85,7 +111,6 @@
     min-height: 2px;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 .head-li {
     color: aliceblue;

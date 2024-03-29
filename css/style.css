@@ -8,7 +8,16 @@
 .main-nav {
     background-color: black;
     color: gold;
-    text-decoration: none;
+    max-height: 65px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: right;
+    text-size-adjust: 100%;
+    flex-wrap: wrap;
+    font-weight: 300;
+    justify-content: space-between;
+    padding: 20px;
 }
 /* PUT ACTIVE COLOR FOR LOGIN/SIGNUP BUTTON */
 
@@ -18,6 +27,7 @@
 /* HERO SECTION START */
 
 #learn-more {
+    padding-top: 65px;
     border: 2px solid black;
     max-width: none;
     min-width: none;

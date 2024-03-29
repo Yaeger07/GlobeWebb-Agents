@@ -8,7 +8,9 @@
 .main-nav {
     background-color: black;
     color: gold;
+    text-decoration: none;
 }
+/* PUT ACTIVE COLOR FOR LOGIN/SIGNUP BUTTON */
 
 /* END OF NAVBAR CSS */
 /* START OF HOME PAGE CSS  */
@@ -31,21 +33,30 @@
 }
 #con {
     cursor: pointer;
-
 }
 /* END OF CONTACT SECTION */
 #packages {
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     height: 400px;
 }
 .pricing-box {
     color: antiquewhite;
+    background-color: black;
 }
 .select {
     background-color: goldenrod;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+    text-align: center;
+}
+.select:hover {
+    opacity: 0.7;
 }
 #bronze {
     border: 4px solid burlywood;

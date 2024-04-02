@@ -53,8 +53,8 @@
 .five:hover,
 .six:hover,
 .seven:hover {
-  transform: scale(1.5);
-  transition: 0.15s;
+    transform: rotate(360deg) scale(1.5);
+  transition: width 2s, height 2s, transform 2s;
   opacity: 1;
 }
 .one {

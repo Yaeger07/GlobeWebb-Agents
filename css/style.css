@@ -1,22 +1,110 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Project Section notes */
-.project-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-    max-width: 100%;
-    
 
+.project-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: ;
+  padding: 10px;
+  max-width: 100%;
+  gap: 3px;
+}
+.divs {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item {
+    height: 200px;
+}
+.one {
+  background-image: url(/images-projects/Domestic.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  opacity: 0.6;
+  
+}
+.one:hover {
+  transform: scale(1.5);
+  box-shadow: 2px 2px 8px -2px red;
+  transition: 0.15s;
+  opacity: 1;
+}
+.two {
+  background-image: url(/images-projects/International.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.two:hover {
+  transform: scale(1.5);
+  box-shadow: 2px 2px 8px -2px orange;
+  transition: 0.15s;
+  opacity: 1;
+}
+.three {
+    background-image: url(/images-projects/cruises.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 0.6;  
   }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+  .three:hover {
+    transform: scale(1.5);
+    box-shadow: 2px 2px 8px -2px yellow;
+    transition: 0.15s;
+    opacity: 1;
+  }
+  .four {
+    background-image: url(/images-projects/personal.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 0.6;  
+  }
+  .four:hover {
+    transform: scale(1.5);
+    box-shadow: 2px 2px 8px -2px green;
+    transition: 0.15s;
+    opacity: 1;
+  }
+  .five {
+    background-image: url(/images-projects/business.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 0.6;  
+  }
+  .five:hover {
+    transform: scale(1.5);
+    box-shadow: 2px 2px 8px -2px blue;
+    transition: 0.15s;
+    opacity: 1;
+  }
+  .six {
+    background-image: url(/images-projects/family.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 0.6;  
+  }
+  .six:hover {
+    transform: scale(1.5);
+    box-shadow: 2px 2px 8px -2px purple;
+    transition: 0.15s;
+    opacity: 1;
   }

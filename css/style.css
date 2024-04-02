@@ -5,98 +5,105 @@
 }
 /* START OF NAVBAR CSS */
 
-.globe-nav {
-    font-size: 20px;
-    margin: 25px;
-}
-
-.main-nav {
-    background-color: black;
-    color: gold;
-    max-height: 65px;
+.header {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
     display: flex;
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(50px);
     justify-content: space-between;
     align-items: center;
-    /* text-align: right;
-    text-size-adjust: 100%;
-    flex-wrap: wrap;
-    font-weight: 300;
-    justify-content: space-between;
-    padding: 20px; */
-    /* z-index: 1; */
-    
+    z-index: 100;
 }
-.main-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.main-nav li {
-    list-style: none;
-}
-.nv {
-    text-decoration: none;
-    color: gold;
-    text-shadow: .5px .5px .5px white;
-    padding: 10px;
-    display: block;
-}
-.nv:hover {
-    color: aliceblue;
-}
-.nv:active {
-    color:aliceblue;
-}
-.toggle-button {
+
+.header::before {
+    content:'';
     position: absolute;
-    top: 0.75rem;
-    left: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-.toggle-button .bar {
-    height: 3px;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: aliceblue;
-    border-radius: 10px;
-}
-@media (max-width: 600px) {
-   .toggle-button {
-    display: flex;
-   }
-   .nv {
-    display: none;
-   }
-   .main-nav {
-    flex-direction: column;
-    align-items: flex-start;
-   }
-   .nv ul {
-    width: 100%;
-    flex-direction: column;
-   }
-   .nv li {
-    text-align: center;
-   }
-   .nv li a {
-    padding: .5rem 1rem;
-   }
-   .nv:active {
-     display: flex;
-   }
-
-}
-#lgin {
-    background-color: rgb(216, 229, 240);
-    padding: 8px;
-    color: black;
-    border-radius: 10px;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(50px);
+    
+    z-index: -1;
 }
 
+.logo {
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 1.15rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+#check {
+    display: none;
+}
+.icons {
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: aliceblue;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3rem 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .icons {
+        display: inline-flex;
+    }
+
+    #check:checked~.icons #menu-icon {
+        display: none;
+    }
+
+    .icons #close-icon {
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 17.7rem;
+        background: rpg(0,0,0, .1);
+        backdrop-filter: blur(50px);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
+        transition: .3s ease;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+    }
+}
 /* PUT ACTIVE COLOR FOR LOGIN/SIGNUP BUTTON */
 
 /* END OF NAVBAR CSS */

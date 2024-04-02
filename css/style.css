@@ -39,7 +39,9 @@
 .nine,
 .ten,
 .eleven,
-.twelve {
+.twelve,
+.thirteen,
+.fourteen {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,13 +49,24 @@
   opacity: 0.6;
 }
 .one:hover,
-.two:hover,
 .three:hover,
-.four:hover,
 .five:hover,
+.seven:hover,
+.nine.hover,
+.eleven:hover,
+.thriteen:hover {
+  transform: rotate(360deg) scale(1.5);
+  transition: width 2s, height 2s, transform 2s;
+  opacity: 1;
+}
+.two:hover,
+.four:hover,
 .six:hover,
-.seven:hover {
-    transform: rotate(360deg) scale(1.5);
+.eight:hover,
+.ten:hover,
+.twelve:hover,
+.fourteen:hover {
+  transform: scale(1.5);
   transition: width 2s, height 2s, transform 2s;
   opacity: 1;
 }

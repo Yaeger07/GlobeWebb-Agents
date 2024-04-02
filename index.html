@@ -6,38 +6,38 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
-  <!-- START OF NAVBAR -->
-  <nav>
-    <div>
-      <button onclick="myFunction" class="dropbtn"></button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="../GlobeWebb-Agents/index.html">Home</a>
-        <a href="../GlobeWebb-Agents/index.html">Testimonials</a>
-        <a href="../GlobeWebb-Agents/index.html">Projects</a>
-        <a href="../GlobeWebb-Agents/index.html">Pricing</a>
-        <a href="../GlobeWebb-Agents/pages/about.html">About Us</a>
-        <a href="../GlobeWebb-Agents/pages/login.html">Log In / Sign Up</a>
-      </div>
-    </div>
-    <div class="main-nav">
-      <a class="nv" href="/index.html">Home</a>
-      <a class="nv" href="/index.html">Testimonials</a>
-      <a class="nv" href="/pages/projects.html">Projects</a>
-      <a class="nv" href="/index.html">Pricing</a>
-      <a class="nv" href="/pages/about.html">About Us</a>
-      <a href="/pages/login.html"
-        ><button id="lgin">Log In / Sign Up</button></a
-      >
-    </div>
-  </nav>
-  <!-- END OF NAVBAR -->
+  
   <body>
+    <!-- START OF NAVBAR -->
+  
+  <header class="header">
+    <a href="#" class="logo">Logo</a>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+    </label>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Pricing</a>
+        <a href="#">About Us</a>
+        <a href="#">Log In/Sign Up</a>
+   
+    </nav>
+  
+  </header>
+  <!-- END OF NAVBAR -->
     <!-- START OF TOP PAGE -->
     <div id="learn-more">
       <img
         id="gold-globe"
-        src="/images-project/gold-globe.png"
+        src="/images-index/gold-globe.png"
         alt="A Gold Globe"
       />
       <h1 id="welcome">Welcome to GlobeWebb</h1>
@@ -100,41 +100,49 @@
     <!-- END OF PACKAGES -->
     <!-- START OF FOOTER -->
     <section class="footer_">
-        <footer>
-            <div>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-      
-            <div>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-            <div class="design_">
-                <p>Est. 2024. Designed by <b><i>GlobeWebb Agents</i></b></p>
-            </div>
-          </footer>
+      <footer>
+        <div class="foot-box">
+          <div class="info-box">
+            <h3 class="foot-title">Airlines</h3>
+            <ul class="foot-info">
+              <li>American Airlines</li>
+              <li>United Airlines</li>
+              <li>Emirates</li>
+              <li>Qatar</li>
+              <li>jetBlue Airways</li>
+            </ul>
+          </div>
+
+          <div class="info-box">
+            <h3 class="foot-title">Hotels</h3>
+            <ul class="foot-info">
+              <li>Daios Cove Luxury Resort</li>
+              <li>Fairmont Baku</li>
+              <li>Algarve Hotel</li>
+              <li>The Peninsula</li>
+              <li>Emirates Palace</li>
+            </ul>
+          </div>
+          <div class="info-box">
+            <h3 class="foot-title">Associations</h3>
+            <ul class="foot-info">
+              <li>Expedia</li>
+              <li>Travelocity</li>
+              <li>Travel Leaders</li>
+              <li>Burkhalter Travel</li>
+              <li>TripAdvisor</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="design_">
+          <p>
+            Est. 2024. Designed by <b><i>GlobeWebb Agents</i></b>
+          </p>
+        </div>
+      </footer>
     </section>
-    
+
     <!-- END OF FOOTER -->
   </body>
 </html>

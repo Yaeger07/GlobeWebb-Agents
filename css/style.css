@@ -60,6 +60,10 @@
   margin-left: 2.5rem;
 }
 
+.navbar a:hover {
+  color: goldenrod;
+}
+
 #check {
   display: none;
 }
@@ -137,6 +141,10 @@
   background-color: goldenrod;
   border-radius: 15px;
   padding: 5px;
+}
+#login_:hover {
+  background-color: black;
+  color: goldenrod;
 }
 
 /* PUT ACTIVE COLOR FOR LOGIN/SIGNUP BUTTON */

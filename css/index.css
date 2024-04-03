@@ -4,13 +4,18 @@
 
 #learn-more {
     padding-top: 150px;
-    border: 2px solid black;
     max-width: none;
     min-width: none;
     text-align: center;
     height: 500px;
     background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(252, 189, 94, 0.5)), url("/images-index/physical-world-map.jpg");
     
+  }
+
+  #plane {
+    width: 300px;
+    display: flex;
+    padding-left: 15px;
   }
   
   
@@ -25,7 +30,15 @@
   #learn-button {
     cursor: pointer;
     padding: 10px;
+    border-radius: 10px;
+    background-color: goldenrod;
   }
+
+  #con:hover, #learn-button:hover {
+    background-color: black;
+    color: goldenrod;
+  }
+
   /* END OF CONTACT SECTION */
   /* START OF PACKAGES */
   

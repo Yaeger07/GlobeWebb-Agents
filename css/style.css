@@ -133,7 +133,55 @@
 #logo {
   width: 60px;;
 }
+#login_ {
+  background-color: goldenrod;
+  border-radius: 15px;
+  padding: 5px;
+}
 
 /* PUT ACTIVE COLOR FOR LOGIN/SIGNUP BUTTON */
 
 /* END OF NAVBAR CSS */
+
+ /* START OF FOOTER */
+ .footer_ {
+  background-color: black;
+}
+.design_ {
+  color: aliceblue;
+  text-align: right;
+  opacity: 0.6;
+}
+.foot-title {
+  color: bisque;
+  opacity: 0.6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 5px;
+}
+.foot-info {
+  color: aliceblue;
+  opacity: 0.6;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+@media (max-width: 600px) {
+  .foot-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 200px) {
+  .foot-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.foot-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px;
+}
+.info-box {
+  width: 300px;
+  position: sticky;
+}
+/* END OF FOOTER */

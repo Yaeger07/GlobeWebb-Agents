@@ -1,28 +1,21 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppings"; sans-serif;
-} 
-
-#lgin {
+/* /* #lgin {
     /* background-color: rgb(216, 229, 240);
     padding: 8px;
     color: black; */
-  background-color: rgb(216, 229, 240);
+  /* background-color: rgb(216, 229, 240);
   padding: 8px;
   color: bl
-}
+} */
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../images-index/silver-beach.jpg'); no-repeat; 
+    background: url('../images-index/silver-beach.jpg') no-repeat; 
     background-position: center;
 } 
 

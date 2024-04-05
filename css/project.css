@@ -1,18 +1,22 @@
 /* Project Section notes */
 
+
+#myVideo {
+  width: 100%;
+  object-fit: fill;
+}
 .project-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: ;
+  color: ghostwhite;
   padding: 10px;
   max-width: 100%;
   gap: 3px;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 .divs {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
   font-size: 30px;
   text-align: center;
 }
@@ -27,14 +31,24 @@
 .five,
 .six,
 .seven,
+.nine,
+.ten,
+.eleven,
+.twelve {
+  padding: 10px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
 .eight,
 .nine,
 .ten,
 .eleven,
-.twelve,
-.thirteen,
-.fourteen,
-.fifteen {
+.twelve {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,103 +57,89 @@
 }
 .one:hover,
 .three:hover,
+.five:hover,
 .seven:hover,
 .nine:hover,
-.eleven:hover,
-.thriteen:hover,
-.fifteen:hover {
-  transform: rotate(360deg) scale(1.5);
+.eleven:hover {
+  transform: rotate(360deg) scale(1.1);
   transition: width 2s, height 2s, transform 2s;
   opacity: 1;
+  box-shadow: 3px 3px 8px -2px gold;
 }
 .two:hover,
 .four:hover,
 .six:hover,
 .eight:hover,
 .ten:hover,
-.twelve:hover,
-.fourteen:hover {
-  transform: scale(1.5);
+.twelve:hover {
+  transform: scale(1.1);
   transition: width 2s, height 2s, transform 2s;
   opacity: 1;
+  box-shadow: 3px 3px 8px -2px goldenrod;
 }
 .one {
-  background-image: url(../images-projects/Domestic.jpeg);
+  background-color: rgb(220, 77, 5);
 }
 .one:hover {
-  box-shadow: 2px 2px 8px -2px red;
+  background-image: url(../images-projects/Domestic.jpeg);
 }
+
 .two {
   background-image: url(../images-projects/International.jpg);
 }
-.two:hover {
-  box-shadow: 2px 2px 8px -2px orange;
-}
+
 .three {
-  background-image: url(../images-projects/cruises.png);
+  background-color: rgb(244, 240, 6);
 }
 .three:hover {
-  box-shadow: 2px 2px 8px -2px yellow;
+  background-image: url(../images-projects/cruises.png);
 }
+
 .four {
   background-image: url(../images-projects/personal.jpeg);
 }
-.four:hover {
-  box-shadow: 2px 2px 8px -2px green;
-}
+
 .five {
   background-color: burlywood;
-  transition-delay: 2s;
 }
 .five:hover {
-  box-shadow: 2px 2px 8px -2px blue;
+  box-shadow: 2px 2px 8px -2px goldenrod;
   background-image: url(../images-projects/business.jpg);
   transform: rotate(360deg) scale(1.5);
 }
 .six {
   background-image: url(../images-projects/family.jpg);
 }
-.six:hover {
-  box-shadow: 2px 2px 8px -2px purple;
-}
+
 .seven {
   background-color: aqua;
 }
-.seven:hover {
-}
+
 .eight {
 }
-.eight:hover {
-}
+
 .nine {
   transition-property: all;
   background-color: violet;
 }
-.nine:hover {
-  background: url(../videos/Kini\ Kini\ Transfer\ &\ Tours\ -\ ATV\ Tour\ _\ Promo\ Video.mp4);
-}
+
 .ten {
 }
-.ten:hover {
-}
+
 .eleven {
   background-color: tomato;
 }
-.eleven:hover {
-}
+
 .twelve {
 }
-.twelve:hover {
+
+@media (max-width: 600px) {
+  {
+   grid-template-columns: 1fr 1fr;
+ }
 }
-.thirteen {
-}
-.thriteen:hover {
-}
-.fourteen {
-}
-.fourteen:hover {
-}
-.fifteen {
-}
-.fifteen.hover {
+@media (min-width: 200px) {
+  {
+   grid-template-columns: 1fr 1fr;
+ }
 }

@@ -1,5 +1,7 @@
 /* Project Section notes */
-
+p {
+  text-align: center;
+}
 
 #myVideo {
   width: 100%;
@@ -12,7 +14,7 @@
   padding: 10px;
   max-width: 100%;
   gap: 3px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .divs {
@@ -117,6 +119,7 @@
 }
 
 .eight {
+  background-color: darkkhaki;
 }
 
 .nine {
@@ -125,6 +128,7 @@
 }
 
 .ten {
+  background-color: darksalmon;
 }
 
 .eleven {
@@ -132,15 +136,7 @@
 }
 
 .twelve {
+  background-color: darkcyan;
 }
 
-@media (max-width: 600px) {
-  {
-   grid-template-columns: 1fr 1fr;
- }
-}
-@media (min-width: 200px) {
-  {
-   grid-template-columns: 1fr 1fr;
- }
-}
+

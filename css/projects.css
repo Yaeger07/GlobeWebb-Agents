@@ -1,4 +1,14 @@
 /* Project Section notes */
+
+.top-page {
+  margin-top: 110px;
+  height: 100px;
+  background-color: black;
+}
+h2, .top-content {
+  color: aliceblue ;
+  text-align: center;
+}
 p {
   text-align: center;
 }
@@ -14,7 +24,7 @@ p {
   padding: 10px;
   max-width: 100%;
   gap: 3px;
-  margin-top: 200px;
+ 
 }
 
 .divs {

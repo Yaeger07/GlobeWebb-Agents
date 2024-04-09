@@ -97,6 +97,7 @@
 
 .test {
   border: 6px groove black;
+  width: 600px;
 }
 
 
@@ -171,7 +172,12 @@
  } 
  .testimonials {
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
  }
+ }
+ .test {
+  width: 300px;
  }
  
 /* MEDIA QUERIES END */

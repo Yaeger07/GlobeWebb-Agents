@@ -56,6 +56,7 @@
   text-align: center;
   border-top: 5px solid goldenrod;
   border-bottom: 5px solid goldenrod;
+  padding-top: 10px;
 }
 #dance {
   height: 250px;
@@ -116,7 +117,7 @@
 .pricing-box {
   color: antiquewhite;
   background-color: black;
-  width: 300px;
+  width: 400px;
   height: 300px;
 }
 .select {
@@ -175,10 +176,14 @@
   justify-content: center;
   align-items: center;
  }
- }
  .test {
-  width: 300px;
+  width: 400px;
  }
+ .pricing-box {
+  width: 400px;
+}
+ }
+ 
  
 @media (max-width: 414px) {
   .packages {
@@ -198,6 +203,9 @@
   }
   .test {
    width: 200px;
+  }
+  .pricing-box {
+    width: 200px;
   }
  
 /* MEDIA QUERIES END */

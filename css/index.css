@@ -120,6 +120,15 @@
   width: 300px;
   height: 300px;
 }
+.icon_ {
+  width: 63px;
+}
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
 .select {
   background-color: goldenrod;
   cursor: pointer;

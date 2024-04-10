@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppings"; sans-serif;
+    font-family: "poppings";
 } 
 /* START OF NAVBAR CSS */
 
@@ -202,4 +202,20 @@
 #plane {
   color: aliceblue;
 }
+<<<<<<< HEAD
 /* END OF FOOTER */
+=======
+/* END OF FOOTER */
+
+/* END OF HOME PAGE CSS */
+
+/* START OF About */
+
+
+
+/* End OF About */
+
+
+
+
+>>>>>>> main

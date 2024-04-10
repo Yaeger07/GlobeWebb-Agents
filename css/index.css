@@ -117,8 +117,17 @@
 .pricing-box {
   color: antiquewhite;
   background-color: black;
-  width: 400px;
+  width: 300px;
   height: 300px;
+}
+.icon_ {
+  width: 63px;
+}
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
 }
 .select {
   background-color: goldenrod;
@@ -200,13 +209,18 @@
    justify-content: center;
    align-items: center;
   }
-  }
   .test {
-   width: 200px;
-  }
-  .pricing-box {
     width: 200px;
-  }
+   }
+   .pricing-box {
+     width: 200px;
+   }
+   .learn-more {
+    width: 414px;
+   }
+}
+
+
  
 /* MEDIA QUERIES END */
 

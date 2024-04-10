@@ -9,22 +9,30 @@
   color: bl
 } */
 
-body {
-  background-color: gold;
-}
 
-@media screen and (min-width: 500px) {
+
+/* @media screen and (min-width: 500px) {
   body {
     background-color: yellowgreen;
   }
-}
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../images-index/silver-beach.jpg") no-repeat;
+    background-position: center;
+  }
+  
 @media (max-width: 992px) {
   body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("../images-index/") no-repeat;
+    background: url("/images-index/plane.png") no-repeat;
     background-position: center;
   }
 }
@@ -40,14 +48,7 @@ body {
   }
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: url("../images-index/silver-beach.jpg") auto;
-  background-position: center;
-}
+
 
 .wrapper {
   width: 420px;

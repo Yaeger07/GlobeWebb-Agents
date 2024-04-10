@@ -4,57 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Home</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  </head>
-  
+    <link
+      href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
   <body>
     <!-- START OF NAVBAR -->
-  
-  <header class="header">
-    <a href="#" class="logo">Logo</a>
 
-    <input type="checkbox" id="check">
-    <label for="check" class="icons">
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <i class='bx bx-x' id="close-icon"></i>
-    </label>
+    <header class="header">
+      <a href="/index.html" class="logo"
+        ><img id="logo" src="/images-index/gold-globe.png" alt="logo" /><i
+          >GlobeWebb</i></a>
 
-    <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Pricing</a>
-        <a href="#">About Us</a>
-        <a href="#">Log In/Sign Up</a>
-   
-    </nav>
-  
-  </header>
-  <!-- END OF NAVBAR -->
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+      <nav class="navbar">
+        <a href="/index.html" style="--i: 0">Home</a>
+        <a href="/pages/projects.html" style="--i: 1">Projects</a>
+        <a href="#contacting" style="--i: 2">Testimonials</a>
+        <a href="#pack" style="--i: 3">Pricing</a>
+        <a href="/pages/about.html" style="--i: 4">About Us</a>
+        <a href="/pages/login.html" style="--i: 5"
+          ><button id="login_">Log In/Sign Up</button></a
+        >
+      </nav>
+    </header>
+    <!-- END OF NAVBAR -->
     <!-- START OF TOP PAGE -->
     <div id="learn-more">
-      <img
-        id="gold-globe"
-        src="/images-index/gold-globe.png"
-        alt="A Gold Globe"
-      />
-      <h1 id="welcome">Welcome to GlobeWebb</h1>
-      <p id="here-at-globe">
-        Here at GlobeWebb we are here to enhance your travel experience and cure
-        that curiosity craving.
-      </p>
-      <button id="learn-button">Learn More</button>
+      <div>
+        <img id="plane" src="/images-index/plane.png" alt="Plane" />
+      </div>
+      <div>
+        <h2 id="agent">Dedicated Agents</h2>
+        <h1 id="welcome">International Travel</h1>
+        <p id="offer">Exclusive Offers</p>
+        <p id="here-at-globe">No More Hassle</p>
+        <button id="learn-button"><b>Learn More</b></button>
+      </div>
     </div>
     <!-- END OF TOP PAGE -->
-    <div id="contacting">
-      <button id="con">Contact Us</button>
-    </div>
 
     <!-- START OF PACKAGES -->
     <section class="pack-section">
-      <div class="packages">
+      <div class="packages" id="pack">
         <div id="gold" class="pricing-box">
           <h3 class="head-li">GOLD</h3>
           <p>$10,000</p>
@@ -74,8 +75,8 @@
           <ul class="silver-li">
             <li><i>4 Star Hotel</i></li>
             <li><i>Quality Restaurants</i></li>
-            <li><i></i></li>
-            <li><i></i></li>
+            <li><i>Resorts</i></li>
+            <li><i>Promo Codes</i></li>
             <li><i>Travel Agent Access 24/7</i></li>
           </ul>
           <!-- <img id="silver-img" src="/images-project/silver-beach.jpg" alt=""> -->
@@ -85,17 +86,45 @@
           <h3 class="head-li">BRONZE</h3>
           <p>$4,000</p>
           <ul class="bronze-li">
-            <li><i></i></li>
-            <li><i></i></li>
-            <li><i></i></li>
-            <li><i></i></li>
-            <li><i></i></li>
+            <li><i>Promo Codes</i></li>
+            <li><i>Window Seats</i></li>
+            <li><i>Included Meals</i></li>
+            <li><i>Agent Access</i></li>
+            <li><i>Meet Wild Life</i></li>
           </ul>
           <!-- <img id="bronze-img" src="/images-project/bronze-family.jpg" alt="Picture of Family"> -->
           <button class="select">Select Package</button>
         </div>
       </div>
     </section>
+    <section>
+      <div class="testimonials">
+        <div>
+          <img
+            class="test"
+            src="/images-index/testimonal.png"
+            alt="Testimonial One"
+          />
+        </div>
+        <div>
+          <img
+            class="test"
+            src="/images-index/testimonial3.png"
+            alt="Testimonial Two"
+          />
+        </div>
+      </div>
+    </section>
+    <div id="contacting">
+      <div class="enjoy">Broaden Horizons . Dive Into Culture</div>
+      <div class="enjoy" id="time">Time to Enjoy Your Life</div>
+      <div>
+        <img id="dance" src="/images-index/celebration.gif" alt="" />
+      </div>
+      <div>
+        <button id="con"><b>Book Now</b></button>
+      </div>
+    </div>
 
     <!-- END OF PACKAGES -->
     <!-- START OF FOOTER -->
@@ -134,12 +163,17 @@
             </ul>
           </div>
         </div>
-
+        
+          <i class="fa-solid fa-plane"></i>
+          <div><i class="fa-brands fa-twitter"></i></div>
+          <div><i class="fa-solid fa-plane-departure"></i></div>
+        
         <div class="design_">
           <p>
             Est. 2024. Designed by <b><i>GlobeWebb Agents</i></b>
           </p>
         </div>
+        
       </footer>
     </section>
 

@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/about.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/about.css" />
     <title>About Us</title>
-</head>
-<body>
+  </head>
+  <!-- START OF NAVBAR -->
+
+  <header class="header">
+    <a href="/index.html" class="logo"
+      ><img id="logo" src="/images-index/gold-globe.png" alt="logo" /><i
+        >GlobeWebb</i
+      ></a
+    >
+
+    <input type="checkbox" id="check" />
+    <label for="check" class="icons">
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-x" id="close-icon"></i>
+    </label>
+    <nav class="navbar">
+      <a href="/index.html" style="--i: 0">Home</a>
+      <a href="/pages/projects.html" style="--i: 1">Projects</a>
+      <a href="#contacting" style="--i: 2">Testimonials</a>
+      <a href="#pack" style="--i: 3">Pricing</a>
+      <a href="/pages/about.html" style="--i: 4">About Us</a>
+      <a href="/pages/login.html" style="--i: 5"
+        ><button id="login_">Log In/Sign Up</button></a
+      >
+    </nav>
+  </header>
+  <!-- END OF NAVBAR -->
+
+  <body>
     <header>
-        <h1>About Us</h1>
+      <h1>About Us</h1>
     </header>
-    
+
     <section>
-        <h2>Our Mission</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu tellus vitae elit vehicula ultrices. Ut auctor dui at arcu viverra rhoncus. Donec gravida aliquet mauris, ac viverra sem aliquet non.</p>
-    
-        <h2>Our Team</h2>
-        <p>Meet the talented individuals who make our company great:</p>
-        <ul>
-            <li>John Doe - CEO</li>
-            <li>Jane Smith - CFO</li>
-            <li>Michael Johnson - CTO</li>
-        </ul>
-    
-        <h2>Contact Us</h2>
-        <p>If you have any questions or inquiries, feel free to reach out to us:</p>
-        <p>Email: info@example.com</p>
-        <p>Phone: 123-456-7890</p>
+      <h2>Our Mission</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
+        tellus vitae elit vehicula ultrices. Ut auctor dui at arcu viverra
+        rhoncus. Donec gravida aliquet mauris, ac viverra sem aliquet non.
+      </p>
+
+      <h2>Our Team</h2>
+      <p>Meet the talented individuals who make our company great:</p>
+      <ul>
+        <li>John Doe - CEO</li>
+        <li>Jane Smith - CFO</li>
+        <li>Michael Johnson - CTO</li>
+      </ul>
+
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or inquiries, feel free to reach out to us:
+      </p>
+      <p>Email: info@example.com</p>
+      <p>Phone: 123-456-7890</p>
     </section>
-    
-    
-</body>
+  </body>
 </html>

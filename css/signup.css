@@ -45,7 +45,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("../images-index/silver-beach.jpg");
+  background: url("../images-index/silver-beach.jpg") auto;
   background-position: center;
 }
 

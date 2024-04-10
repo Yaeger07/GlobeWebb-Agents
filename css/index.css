@@ -180,6 +180,26 @@
   width: 300px;
  }
  
+@media (max-width: 414px) {
+  .packages {
+   flex-direction: column;
+  }
+  #plane {
+   width: 200px;
+  }
+  #dance {
+   width: 200px;
+  } 
+  .testimonials {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  }
+  .test {
+   width: 200px;
+  }
+ 
 /* MEDIA QUERIES END */
 
 /* END OF HOME PAGE CSS */

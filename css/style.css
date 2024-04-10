@@ -134,6 +134,12 @@
     opacity: 1;
     transition-delay: calc(.15s * var(--i));
   }
+ 
+}
+@media (max-width: 375px) {
+  #logo {
+    width: 40px;
+  }
 }
 
 #logo {
@@ -173,14 +179,9 @@
   opacity: 0.6;
   font-family: "Arial Narrow", Arial, sans-serif;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .foot-box {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (min-width: 200px) {
-  .foot-box {
-    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
   }
 }
 .foot-box {
@@ -193,5 +194,8 @@
 .info-box {
   width: 300px;
   position: sticky;
+}
+#plane {
+  color: aliceblue;
 }
 /* END OF FOOTER */

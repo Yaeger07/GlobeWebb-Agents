@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Home</title>
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"
       rel="stylesheet"
     />
-  </head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   <body>
     <!-- START OF NAVBAR -->
@@ -32,120 +32,151 @@
         <a href="#contacting" style="--i: 2">Testimonials</a>
         <a href="#pack" style="--i: 3">Pricing</a>
         <a href="/pages/about.html" style="--i: 4">About Us</a>
-        <a href="/pages/login.html" style="--i: 5"><button  id="login_">Log In/Sign Up</button></a>
+        <a href="/pages/login.html" style="--i: 5"
+          ><button id="login_">Log In/Sign Up</button></a
+        >
       </nav>
     </header>
     <!-- END OF NAVBAR -->
-      <!-- START OF TOP PAGE -->
-      <div id="learn-more">
-        <img
-          id="plane"
-          src="/images-index/plane.png"
-          alt=""
-        />
-        <h1 id="welcome">Welcome to GlobeWebb</h1>
-        <p id="here-at-globe">
-          Here at GlobeWebb we are here to enhance your travel experience and cure
-          that curiosity craving.
-        </p>
-        <button id="learn-button">Learn More</button>
+    <!-- START OF TOP PAGE -->
+    <div id="learn-more">
+      <div>
+        <img id="plane" src="/images-index/plane.png" alt="Plane" />
       </div>
-      <!-- END OF TOP PAGE -->
-      <div id="contacting">
-        <button id="con">Contact Us</button>
+      <div>
+        <h2 id="agent">Dedicated Agents</h2>
+        <h1 id="welcome">International Travel</h1>
+        <p id="offer">Exclusive Offers</p>
+        <p id="here-at-globe">No More Hassle</p>
+        <button id="learn-button"><b>Learn More</b></button>
       </div>
-  
-      <!-- START OF PACKAGES -->
-      <section class="pack-section">
-        <div class="packages" id="pack">
-          <div id="gold" class="pricing-box">
-            <h3 class="head-li">GOLD</h3>
-            <p>$10,000</p>
-            <ul class="gold-li">
-              <li><i>First Class Flight</i></li>
-              <li><i>Michilin Restaurants</i></li>
-              <li><i>5 Star Hotel</i></li>
-              <li><i>Unique Adventures</i></li>
-              <li><i>Travel Agent Access 24/7</i></li>
+    </div>
+    <!-- END OF TOP PAGE -->
+
+    <!-- START OF PACKAGES -->
+    <section class="pack-section">
+      <div class="packages" id="pack">
+        <div id="gold" class="pricing-box">
+          <h3 class="head-li">GOLD</h3>
+          <p>$10,000</p>
+          <ul class="gold-li">
+            <li><i>First Class Flight</i></li>
+            <li><i>Michilin Restaurants</i></li>
+            <li><i>5 Star Hotel</i></li>
+            <li><i>Unique Adventures</i></li>
+            <li><i>Travel Agent Access 24/7</i></li>
+          </ul>
+          <!-- <img id="gold-img" src="/images-project/platinum-vacay.jpg" alt=""> -->
+          <button class="select">Select Package</button>
+        </div>
+        <div id="silver" class="pricing-box">
+          <h3 class="head-li">SILVER</h3>
+          <p>$7,000</p>
+          <ul class="silver-li">
+            <li><i>4 Star Hotel</i></li>
+            <li><i>Quality Restaurants</i></li>
+            <li><i>Resorts</i></li>
+            <li><i>Promo Codes</i></li>
+            <li><i>Travel Agent Access 24/7</i></li>
+          </ul>
+          <!-- <img id="silver-img" src="/images-project/silver-beach.jpg" alt=""> -->
+          <button class="select">Select Package</button>
+        </div>
+        <div id="bronze" class="pricing-box">
+          <h3 class="head-li">BRONZE</h3>
+          <p>$4,000</p>
+          <ul class="bronze-li">
+            <li><i>Promo Codes</i></li>
+            <li><i>Window Seats</i></li>
+            <li><i>Included Meals</i></li>
+            <li><i>Agent Access</i></li>
+            <li><i>Meet Wild Life</i></li>
+          </ul>
+          <!-- <img id="bronze-img" src="/images-project/bronze-family.jpg" alt="Picture of Family"> -->
+          <button class="select">Select Package</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="testimonials">
+        <div>
+          <img
+            class="test"
+            src="/images-index/testimonal.png"
+            alt="Testimonial One"
+          />
+        </div>
+        <div>
+          <img
+            class="test"
+            src="/images-index/testimonial3.png"
+            alt="Testimonial Two"
+          />
+        </div>
+      </div>
+    </section>
+    <div id="contacting">
+      <div class="enjoy">Broaden Horizons . Dive Into Culture</div>
+      <div class="enjoy" id="time">Time to Enjoy Your Life</div>
+      <div>
+        <img id="dance" src="/images-index/celebration.gif" alt="" />
+      </div>
+      <div>
+        <button id="con"><b>Book Now</b></button>
+      </div>
+    </div>
+
+    <!-- END OF PACKAGES -->
+    <!-- START OF FOOTER -->
+    <section class="footer_">
+      <footer>
+        <div class="foot-box">
+          <div class="info-box">
+            <h3 class="foot-title">Airlines</h3>
+            <ul class="foot-info">
+              <li>American Airlines</li>
+              <li>United Airlines</li>
+              <li>Emirates</li>
+              <li>Qatar</li>
+              <li>jetBlue Airways</li>
             </ul>
-            <!-- <img id="gold-img" src="/images-project/platinum-vacay.jpg" alt=""> -->
-            <button class="select">Select Package</button>
           </div>
-          <div id="silver" class="pricing-box">
-            <h3 class="head-li">SILVER</h3>
-            <p>$7,000</p>
-            <ul class="silver-li">
-              <li><i>4 Star Hotel</i></li>
-              <li><i>Quality Restaurants</i></li>
-              <li><i></i></li>
-              <li><i></i></li>
-              <li><i>Travel Agent Access 24/7</i></li>
+
+          <div class="info-box">
+            <h3 class="foot-title">Hotels</h3>
+            <ul class="foot-info">
+              <li>Daios Cove Luxury Resort</li>
+              <li>Fairmont Baku</li>
+              <li>Algarve Hotel</li>
+              <li>The Peninsula</li>
+              <li>Emirates Palace</li>
             </ul>
-            <!-- <img id="silver-img" src="/images-project/silver-beach.jpg" alt=""> -->
-            <button class="select">Select Package</button>
           </div>
-          <div id="bronze" class="pricing-box">
-            <h3 class="head-li">BRONZE</h3>
-            <p>$4,000</p>
-            <ul class="bronze-li">
-              <li><i></i></li>
-              <li><i></i></li>
-              <li><i></i></li>
-              <li><i></i></li>
-              <li><i></i></li>
+          <div class="info-box">
+            <h3 class="foot-title">Associations</h3>
+            <ul class="foot-info">
+              <li>Expedia</li>
+              <li>Travelocity</li>
+              <li>Travel Leaders</li>
+              <li>Burkhalter Travel</li>
+              <li>TripAdvisor</li>
             </ul>
-            <!-- <img id="bronze-img" src="/images-project/bronze-family.jpg" alt="Picture of Family"> -->
-            <button class="select">Select Package</button>
           </div>
         </div>
-      </section>
-  
-      <!-- END OF PACKAGES -->
-      <!-- START OF FOOTER -->
-      <section class="footer_">
-        <footer>
-          <div class="foot-box">
-            <div class="info-box">
-              <h3 class="foot-title">Airlines</h3>
-              <ul class="foot-info">
-                <li>American Airlines</li>
-                <li>United Airlines</li>
-                <li>Emirates</li>
-                <li>Qatar</li>
-                <li>jetBlue Airways</li>
-              </ul>
-            </div>
-  
-            <div class="info-box">
-              <h3 class="foot-title">Hotels</h3>
-              <ul class="foot-info">
-                <li>Daios Cove Luxury Resort</li>
-                <li>Fairmont Baku</li>
-                <li>Algarve Hotel</li>
-                <li>The Peninsula</li>
-                <li>Emirates Palace</li>
-              </ul>
-            </div>
-            <div class="info-box">
-              <h3 class="foot-title">Associations</h3>
-              <ul class="foot-info">
-                <li>Expedia</li>
-                <li>Travelocity</li>
-                <li>Travel Leaders</li>
-                <li>Burkhalter Travel</li>
-                <li>TripAdvisor</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="design_">
-            <p>
-              Est. 2024. Designed by <b><i>GlobeWebb Agents</i></b>
-            </p>
-          </div>
-        </footer>
-      </section>
-  
-      <!-- END OF FOOTER -->
-    </body>
-  </html>
+        
+          <i class="fa-solid fa-plane"></i>
+          <div><i class="fa-brands fa-twitter"></i></div>
+          <div><i class="fa-solid fa-plane-departure"></i></div>
+        
+        <div class="design_">
+          <p>
+            Est. 2024. Designed by <b><i>GlobeWebb Agents</i></b>
+          </p>
+        </div>
+        
+      </footer>
+    </section>
+
+    <!-- END OF FOOTER -->
+  </body>
+</html>

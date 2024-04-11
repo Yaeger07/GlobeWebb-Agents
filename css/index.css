@@ -168,6 +168,9 @@
 .head-li {
   color: aliceblue;
 }
+.gold-li, .bronze-li, .silver-li {
+  list-style-type: none;
+}
 /* END OF PACKAGES */
 
 /* MEDIA QUERIES START */
@@ -194,7 +197,7 @@
   width: 400px;
 }
 .packages {
-  height: 700px;
+  height: 900px;
 }
  }
  

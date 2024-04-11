@@ -57,9 +57,10 @@
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(252, 189, 94, 0.5)),;
+    background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(252, 189, 94, 0.5)), url(../images/about-background.jpg);
     padding-left: 70px;
-    border-bottom: 4px solid black;   
+    border-bottom: 4px solid black;  
+    
 }
 .history {
   padding-top: 150px;

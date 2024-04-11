@@ -9,7 +9,7 @@
   color: goldenrod;
 }
 .me {
-  background-color: goldenrod;
+  background-color: aliceblue;
   padding: 10px;
   cursor: pointer;
 }
@@ -35,8 +35,8 @@
 }
 
 .agents {
-  color: antiquewhite;
-  background-color: black;
+  color: aliceblue;
+  background-color: goldenrod;
   width: 300px;
   height: 300px;
   text-align: center;
@@ -51,6 +51,7 @@
     display: flex;
     flex-wrap: wrap;
     background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(252, 189, 94, 0.5)),
+    
     padding-left: 70px;
     border-bottom: 4px solid black;   
 }
@@ -62,6 +63,22 @@
   padding-left: 70px;
   border-bottom: 4px solid black;
 }
+#yaeger, #rama {
+  background-image: url(../images/about-pic-3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#rmony, #joshua {
+  background-image: url(../images/about-pic-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
 
 @media (max-width: 768px) {
   .agent-cards {

@@ -2,3 +2,24 @@
 .about-body {
     margin-top: 70px;
 }
+
+.contact-me {
+    padding: 10px;
+
+}
+
+.me {
+    background-color: goldenrod;
+    padding: 10px;
+}
+
+.more {
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.learn-button {
+    padding: 20px;
+}

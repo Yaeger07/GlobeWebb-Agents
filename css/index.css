@@ -4,8 +4,6 @@
 
 #learn-more {
   padding-top: 150px;
-  /* max-width: none;
-  min-width: none; */
   width: 100%;
   text-align: left;
   height: 500px;
@@ -102,7 +100,6 @@
   width: 400px;
 }
 
-
 /* END OF TESTIMONIAL SECTION  */
 
 /* START OF PACKAGES */
@@ -168,7 +165,9 @@
 .head-li {
   color: aliceblue;
 }
-.gold-li, .bronze-li, .silver-li {
+.gold-li,
+.bronze-li,
+.silver-li {
   list-style-type: none;
 }
 /* END OF PACKAGES */
@@ -176,60 +175,57 @@
 /* MEDIA QUERIES START */
 
 @media (max-width: 768px) {
- .packages {
-  flex-direction: column;
- }
- #plane {
-  width: 300px;
- }
- #dance {
-  width: 300px;
- } 
- .testimonials {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- }
- .test {
-  width: 400px;
- }
- .pricing-box {
-  width: 400px;
-}
-.packages {
-  height: 900px;
-}
- }
- 
- 
-@media (max-width: 414px) {
   .packages {
-   flex-direction: column;
+    flex-direction: column;
   }
   #plane {
-   width: 200px;
+    width: 300px;
   }
   #dance {
-   width: 200px;
-  } 
+    width: 300px;
+  }
   .testimonials {
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .test {
+    width: 400px;
+  }
+  .pricing-box {
+    width: 400px;
+  }
+  .packages {
+    height: 900px;
+  }
+}
+
+@media (max-width: 414px) {
+  .packages {
+    flex-direction: column;
+  }
+  #plane {
+    width: 200px;
+  }
+  #dance {
+    width: 200px;
+  }
+  .testimonials {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .test {
     width: 200px;
-   }
-   .pricing-box {
-     width: 200px;
-   }
-   .learn-more {
+  }
+  .pricing-box {
+    width: 200px;
+  }
+  .learn-more {
     width: 414px;
-   }
+  }
 }
 
-
- 
 /* MEDIA QUERIES END */
 
 /* END OF HOME PAGE CSS */

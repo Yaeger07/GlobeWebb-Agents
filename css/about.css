@@ -2,13 +2,16 @@
   margin-top: 70px;
 }
 
-.contact-me {
-  padding: 10px;
-}
 
+
+.me:hover {
+  background-color: black;
+  color: goldenrod;
+}
 .me {
   background-color: aliceblue;
   padding: 10px;
+  cursor: pointer;
 }
 
 .more {
@@ -16,6 +19,11 @@
   color: goldenrod;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
+}
+.more:hover {
+    background-color: goldenrod;
+    color: black;
 }
 .agent-cards {
   background-color: white;
@@ -35,21 +43,17 @@
   border: 1px solid goldenrod;
 }
 
-.learn-button {
-  padding: 20px;
-}
 
 .about-hero {
-  padding-top: 150px;
-  width: 100%;
-  text-align: left;
-  height: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(252, 189, 94, 0.5)),
-    url("../images/about-background.jpg");
-  padding-left: 70px;
-  border-bottom: 4px solid black;
+    padding-top: 150px;
+    width: 100%;
+    text-align: left;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(252, 189, 94, 0.5)),;
+    padding-left: 70px;
+    border-bottom: 4px solid black;   
 }
 .history {
   padding-top: 150px;
@@ -81,7 +85,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 1100px;
+  }
+  .about-start {
+    width: 100%;
   }
 }
 @media (max-width: 414px) {
+   .about-start {
+    width: 414px;
+}
 }

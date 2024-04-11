@@ -75,7 +75,7 @@
 #con,
 #learn-button {
   cursor: pointer;
-  padding: 10px;
+  padding: 13px;
   border-radius: 10px;
   background-color: goldenrod;
 }
@@ -94,11 +94,12 @@
   display: flex;
   justify-content: space-around;
   background-color: antiquewhite;
+  padding-top: 20px;
 }
 
 .test {
   border: 6px groove black;
-  width: 600px;
+  width: 400px;
 }
 
 
@@ -110,7 +111,7 @@
   background-color: white;
   display: flex;
   justify-content: space-around;
-  height: 700px;
+  height: 400px;
   align-items: center;
   flex-direction: row;
 }
@@ -119,6 +120,7 @@
   background-color: black;
   width: 300px;
   height: 300px;
+  text-align: center;
 }
 .icon_ {
   width: 63px;
@@ -190,6 +192,9 @@
  }
  .pricing-box {
   width: 400px;
+}
+.packages {
+  height: 700px;
 }
  }
  

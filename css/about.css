@@ -39,6 +39,10 @@
   height: 400px;
   align-items: center;
   flex-direction: row;
+  border-bottom: 4px solid aliceblue;
+  border-top: 4px solid aliceblue;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .agents {

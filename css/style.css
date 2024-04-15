@@ -183,6 +183,9 @@
   opacity: 0.6;
   font-family: "Arial Narrow", Arial, sans-serif;
 }
+.hotel, .twitter, .plane {
+color: aliceblue;
+}
 @media (max-width: 768px) {
   .foot-box {
     flex-direction: row;
@@ -199,6 +202,8 @@
   width: 300px;
   position: sticky;
 }
-#plane {
-  color: aliceblue;
+
+.combine {
+  flex-direction: row;
+  j
 }

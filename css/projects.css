@@ -26,6 +26,7 @@ p {
 #myVideo {
   width: 100%;
   object-fit: fill;
+  height: 200px;
 }
 .project-container {
   display: grid;
@@ -74,7 +75,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 .one:hover,
 .three:hover,
@@ -127,6 +128,7 @@ p {
   box-shadow: 2px 2px 8px -2px goldenrod;
   background-image: url(../images-projects/business.jpg);
   transform: rotate(360deg) scale(1.1);
+  opacity: 100%;
 }
 .six {
   background-image: url(../images-projects/family.jpg);

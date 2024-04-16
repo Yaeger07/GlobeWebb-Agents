@@ -74,7 +74,7 @@
     /* display: flex;
     flex-wrap: wrap; */
     background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(252, 189, 94, 0.5)), url(../images/about-background.jpg);
-    padding-left: 70px;
+    
     
 }
 .history {
@@ -121,15 +121,28 @@
     height: 1200px;
   }
   .about-start {
-    width: 100%;
+    width: 768px;
   }
   .history {
+    padding-top: 50px;
     padding-left: 100px;
   padding-right: 100px;
+  }
+  .about-start {
+    text-align: left;
+  }
+  .about-hero {
+    padding-left: 20px;
   }
 }
 @media (max-width: 414px) {
    .about-start {
     width: 414px;
 }
+   .hero-p {
+    width: 414px;
+   }
+   .about-hero {
+    padding-left: 5px;
+   }
 }

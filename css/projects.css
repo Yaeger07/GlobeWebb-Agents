@@ -1,13 +1,22 @@
 /* Project Section notes */
 
 .top-page {
-  margin-top: 110px;
-  height: 100px;
-  background-color: black;
+  font-size: 25px;
+  opacity: 0.8;
+  padding-left: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 125px;
+  height: 300px;
+  background-image: url(../images-projects/backgroundprojects.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h2,
 .top-content {
-  color: aliceblue;
+  color: black;
+  text-shadow: 1px 1px goldenrod;
   text-align: center;
 }
 p {
@@ -17,6 +26,7 @@ p {
 #myVideo {
   width: 100%;
   object-fit: fill;
+  height: 200px;
 }
 .project-container {
   display: grid;
@@ -24,7 +34,6 @@ p {
   color: ghostwhite;
   padding: 10px;
   max-width: 100%;
-  
 }
 
 .divs {
@@ -66,7 +75,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 .one:hover,
 .three:hover,
@@ -119,6 +128,7 @@ p {
   box-shadow: 2px 2px 8px -2px goldenrod;
   background-image: url(../images-projects/business.jpg);
   transform: rotate(360deg) scale(1.1);
+  opacity: 100%;
 }
 .six {
   background-image: url(../images-projects/family.jpg);
@@ -138,7 +148,7 @@ p {
 }
 
 .ten {
-  background-color: darksalmon;
+  background-image: url("../images-projects/luxury.jpg");
 }
 
 .eleven {
@@ -146,7 +156,7 @@ p {
 }
 
 .twelve {
-  background-color: darkcyan;
+  background-image: url("../images-projects/budget.jpg");
 }
 @media (max-width: 992px) {
   .project-container {
@@ -159,4 +169,8 @@ p {
   .project-container {
     grid-template-columns: auto;
     position: center;
-  } }Phy
+  }
+  .top-content {
+font-size: medium;
+  }
+}

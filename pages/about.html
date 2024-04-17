@@ -3,15 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link
+      rel="shortcut icon"
+      href="../images-index/gold-globe.png"
+      type="image/x-icon"
+    />
+
     <title>About Us</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css?_cacheOverride=1712774654269"
+      rel="stylesheet"
+    />
   </head>
   <!-- START OF NAVBAR -->
 
   <header class="header">
-    <a href="/index.html" class="logo"
-      ><img id="logo" src="/images-index/gold-globe.png" alt="logo" /><i
+    <a href="index.html" class="logo"
+      ><img id="logo" src="../images-index/gold-globe.png" alt="logo" /><i
         >GlobeWebb</i
       ></a
     >
@@ -22,45 +32,129 @@
       <i class="bx bx-x" id="close-icon"></i>
     </label>
     <nav class="navbar">
-      <a href="/index.html" style="--i: 0">Home</a>
-      <a href="/pages/projects.html" style="--i: 1">Projects</a>
-      <a href="#contacting" style="--i: 2">Testimonials</a>
-      <a href="#pack" style="--i: 3">Pricing</a>
-      <a href="/pages/about.html" style="--i: 4">About Us</a>
-      <a href="/pages/login.html" style="--i: 5"
+      <a href="../index.html" style="--i: 0">Home</a>
+      <a href="../projects.html" style="--i: 1">Projects</a>
+      <a href="../index.html#testimonial" style="--i: 2">Testimonials</a>
+      <a href="../index.html#pack" style="--i: 3">Pricing</a>
+      <a href="../pages/about.html" style="--i: 4">About Us</a>
+      <a href="../pages/login.html" style="--i: 5"
         ><button id="login_">Log In/Sign Up</button></a
       >
     </nav>
   </header>
   <!-- END OF NAVBAR -->
 
-  <body>
-    <header>
-      <h1>About Us</h1>
-    </header>
-
-    <section>
-      <h2>Our Mission</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
-        tellus vitae elit vehicula ultrices. Ut auctor dui at arcu viverra
-        rhoncus. Donec gravida aliquet mauris, ac viverra sem aliquet non.
-      </p>
-
-      <h2>Our Team</h2>
-      <p>Meet the talented individuals who make our company great:</p>
-      <ul>
-        <li>John Doe - CEO</li>
-        <li>Jane Smith - CFO</li>
-        <li>Michael Johnson - CTO</li>
-      </ul>
-
-      <h2>Contact Us</h2>
-      <p>
-        If you have any questions or inquiries, feel free to reach out to us:
-      </p>
-      <p>Email: info@example.com</p>
-      <p>Phone: 123-456-7890</p>
+  <body class="about-body">
+    <div class="about-hero">
+      <div class="about-start">
+        <h1 class="bt">Learn About Us</h1>
+        <p class="hero-p">
+          Between prestigious, ambitious agents and our award winning travel
+          deals, <br>we only have room for excellent customer service and passion.
+        </p>
+        <br /><br />
+        <div class="learn-button"><button class="more">Learn More</button></div>
+      </div>
+    </div>
+    <section class="history">
+      <div class="history-container">
+        <h1 class="history-h1">How We Got Started</h1>
+        <br />
+        <p class="history-p">
+          Initially, our founders only had the bare minimum; dreaming of being
+          able to have more and see as much as possible. After finding financial
+          freedom, they began to travel around the world chasing their dreams
+          and furthering their careers. After having found such a love for
+          traveling but struggling with plans, timing and other certain
+          traveling dilemmas an idea arose. They would become travel agents and
+          provide carefree travel and deals to make the most out of their
+          adventures.
+        </p>
+      </div>
     </section>
+    <section class="agent-cards">
+      <div class="agents" id="yaeger">
+        <div class="gen">
+          <h3 class="name">Agent Yaeger</h3>
+          <div id="" class="contact-me">
+            <br />
+            <button class="me">Contact Me</button>
+          </div>
+        </div>
+      </div>
+      <div id="rmony" class="agents">
+        <div class="gen">
+          <h3 class="name">Agent Rmony</h3>
+          <div id="" class="contact-me">
+            <br />
+            <button class="me">Contact Me</button>
+          </div>
+        </div>
+      </div>
+      <div class="agents" id="joshua">
+        <div class="gen">
+          <h3 class="name">Agent Joshua</h3>
+          <div id="" class="contact-me">
+            <br />
+            <button class="me">Contact Me</button>
+          </div>
+        </div>
+      </div>
+      <div class="agents" id="rama">
+        <div class="gen">
+          <h3 class="name">Agent Rama</h3>
+          <div id="" class="contact-me">
+            <br />
+            <button class="me">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START OF FOOTER -->
+    <section class="footer_">
+      <footer>
+        <div class="foot-box">
+          <div class="info-box">
+            <h3 class="foot-title">Airlines</h3>
+            <ul class="foot-info">
+              <li>UK Airlines</li>
+              <li>United Airlines</li>
+              <li>Emirates</li>
+              <li>Qatar</li>
+              <li>jetBlue</li>
+            </ul>
+          </div>
+
+          <div class="info-box">
+            <h3 class="foot-title">Hotels</h3>
+            <ul class="foot-info">
+              <li>Daios Cove</li>
+              <li>Fairmont Baku</li>
+              <li>Algarve Hotel</li>
+              <li>The Peninsula</li>
+              <li>Emirates</li>
+            </ul>
+          </div>
+          <div class="info-box">
+            <h3 class="foot-title">Associations</h3>
+            <ul class="foot-info">
+              <li>Expedia</li>
+              <li>Travelocity</li>
+              <li>Travel Leaders</li>
+              <li>Burkhalter Travel</li>
+              <li>TripAdvisor</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="design_">
+          <p>
+            Est. 2024. Designed by <b><i>GlobeWebb Agents</i></b>
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- END OF FOOTER -->
   </body>
 </html>
